@@ -36,7 +36,7 @@ services:
       POSTGRES_DB: webstudio
 
     ports:
-      - ${PGPORT:-5432}:5432
+      - 5698:5698
       - 4220:4220
 
     healthcheck:
